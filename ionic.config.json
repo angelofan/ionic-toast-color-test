@@ -1,0 +1,7 @@
+{
+  "name": "ionic-toast-color-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

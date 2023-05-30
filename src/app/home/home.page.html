@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Toast Color
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container" class="ion-padding" style="background-color: #EEE; height: 100%;">
+    <strong>Colors with translucent</strong>
+    <ion-button id="open-toast-translucent-default" expand="block">default</ion-button>
+    <ion-toast trigger="open-toast-translucent-default" message="This toast will disappear after 5 seconds" [duration]="5000" [translucent]="true"></ion-toast>
+    <ion-button id="open-toast-translucent-success" expand="block">Success</ion-button>
+    <ion-toast trigger="open-toast-translucent-success" message="This toast will disappear after 5 seconds" [duration]="5000" [translucent]="true" color="success"></ion-toast>
+    <ion-button id="open-toast-translucent-warning" expand="block">Warning</ion-button>
+    <ion-toast trigger="open-toast-translucent-warning" message="This toast will disappear after 5 seconds" [duration]="5000" [translucent]="true" color="warning"></ion-toast>
+    <ion-button id="open-toast-translucent-danger" expand="block">Danger</ion-button>
+    <ion-toast trigger="open-toast-translucent-danger" message="This toast will disappear after 5 seconds" [duration]="5000" [translucent]="true" color="danger"></ion-toast>
+  </div>
+</ion-content>
